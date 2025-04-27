@@ -27,6 +27,50 @@
 #show heading.where(level: 2): set text(size: 14pt, weight: "bold")
 #show heading.where(level: 3): set text(size: 12pt, weight: "bold")
 
+// Title page
+#page(header: [
+  #image(
+    "macromedia-bildmarke-rgb-blaubeere.svg",
+    alt: "Macromedia University of applied sciences logo",
+    width: 1.52cm,
+    height: 0.85cm,
+  )]
+)[
+  
+  #align(center)[
+    #for _ in range(5){linebreak()}
+    #par(leading: 1em)[
+      #text(18pt)[Macromedia\ University of Applied Sciences]
+    ]
+    
+    #par(leading: 1em)[[#for _ in range(6){linebreak()}]]
+    #par(text(size: 30pt, fill: rgb("808080"))[#upper[Bachelor Thesis]])
+    #par(
+      leading: 1em,
+    )[
+      #text(size: 12pt)[
+        Final paper for the obtainment of the\ Bachelor of Science Degree
+      ]
+    ]
+
+    
+    #for _ in range(4){linebreak()}
+    #par[
+      #text(size: 18pt)[A case study on the interplay of accessibility\ and user
+experience in web applications]
+    ]
+    #par[
+      #text(size: 18pt)[in the course of study Digital Technologies & Coding]
+    ]
+    #par[
+      #text(size: 18pt)[study focus Web Development]
+    ]
+    
+  ]
+]
+
+
+
 = Heading 1
 == Heading 2
 === Heading 3
