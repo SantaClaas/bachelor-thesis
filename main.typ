@@ -94,17 +94,21 @@ relationship of accessibility and user experience but also shed light on the
 opportunities and challenges companies like MOBIKO face when it comes to
 compliance with the EAA.
 
+#pagebreak()
 = Relevance
 == Fundamental Research and Theories
 === Usability
-ISO 9241-11 @noauthor_ergonomics_nodate defines usability as "the extend to which a system, product or service can be used by specified users to achieve
-specified goals with effectiveness, efficiency and satisfaction in a specified context of use." 
+ISO 9241-11 @international_organization_for_standardization_ergonomics_2018 defines usability as "the extend to which a system, product or service can be used by specified users to achieve
+specified goals with effectiveness, efficiency and satisfaction in a specified context of use". Where product refers to a website or web app. This definition is widely adopted and appears in many papers in the Human Computer Interaction space such as #cite(<hassenzahl_interplay_2004>, form: "prose"), #cite(<petrie_relationship_2007>, form: "prose"), #cite(<aizpurua_exploring_2016>, form: "prose").
+However the definition of usability focuses primarily on utilitarian aspects such as user cognition and performance 
 === User Experience
-Compared to Usability which is clearly defined in ISO #highlight[_TODO_], User Experience is seen by many researchers as a not well defined term #highlight[TODO cite all the places I have seen this argument]
-=== Web Sites
+As clearly as usability is defined by ISO 9241-11, user experience seems to be more elusive. In 2004 #cite(<Hassenzahl2004>, form: "prose"), claims that it is a widely used term with .
+
+// Compared to Usability which is clearly defined in ISO #highlight[_TODO_], User Experience is seen by many researchers as a not well defined term #highlight[TODO cite all the places I have seen this argument]
+=== Websites
 === Web Apps
-=== Web Sites vs Web Apps
-The term website and and web application or app are often used in literature but rarely defined
+=== Websites vs Web Apps
+The term website and and web application or app are often used in literature but rarely defined. While the former can be found in the dictionary as a modern addition to the English language the latter does not yet and needs to be written separated by a space.
 === Etymology
 They both use the word web which is the underlying platform they are built on. A site however is similar to a site in a book which implies there are more and they are linked with each other and there is room to explore. Meanwhile an app which comes from application is more of an in itself closed concept. This also reflects in the technology. A PWA has one window in which the focus is kept and every interaction with the outside requires leaving the app. While a browser allows multiple tabs to be opened even of the same site. Another aspect in which this reflects is the usage mode. Sites allow more of an action mode usage while apps are more goal focused.
 ==== Goal mode vs action mode
