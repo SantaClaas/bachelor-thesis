@@ -97,11 +97,14 @@ compliance with the EAA.
 = Relevance
 == Fundamental Research and Theories
 === Usability
+ISO 9241-11 @noauthor_ergonomics_nodate defines usability as "the extend to which a system, product or service can be used by specified users to achieve
+specified goals with effectiveness, efficiency and satisfaction in a specified context of use." 
 === User Experience
 Compared to Usability which is clearly defined in ISO #highlight[_TODO_], User Experience is seen by many researchers as a not well defined term #highlight[TODO cite all the places I have seen this argument]
 === Web Sites
 === Web Apps
 === Web Sites vs Web Apps
+The term website and and web application or app are often used in literature but rarely defined
 === Etymology
 They both use the word web which is the underlying platform they are built on. A site however is similar to a site in a book which implies there are more and they are linked with each other and there is room to explore. Meanwhile an app which comes from application is more of an in itself closed concept. This also reflects in the technology. A PWA has one window in which the focus is kept and every interaction with the outside requires leaving the app. While a browser allows multiple tabs to be opened even of the same site. Another aspect in which this reflects is the usage mode. Sites allow more of an action mode usage while apps are more goal focused.
 ==== Goal mode vs action mode
@@ -110,3 +113,13 @@ They both use the word web which is the underlying platform they are built on. A
 
 == Research Gap & Research Objective
 == Research Questions and their relevance for research and practice
+= Research Approach
+== Barrier Walkthrough
+= Results
+= Summary & Outlook
+
+
+#pagebreak()
+#bibliography(
+  "zotero.bib",
+  style: "american-psychological-association")
