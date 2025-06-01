@@ -100,9 +100,9 @@ compliance with the EAA.
 === Usability
 ISO 9241-11 @international_organization_for_standardization_ergonomics_2018 defines usability as "the extend to which a system, product or service can be used by specified users to achieve
 specified goals with effectiveness, efficiency and satisfaction in a specified context of use". Where product refers to a website or web app. This definition is widely adopted and appears in many papers in the Human Computer Interaction space such as #cite(<hassenzahl_interplay_2004>, form: "prose"), #cite(<petrie_relationship_2007>, form: "prose"), #cite(<aizpurua_exploring_2016>, form: "prose").
-However the definition of usability focuses primarily on utilitarian aspects such as user cognition and performance 
+However the definition of usability focuses primarily on utilitarian aspects such as user cognition and performance @law_understanding_2009.
 === User Experience
-As clearly as usability is defined by ISO 9241-11, user experience seems to be more elusive. In 2004 #cite(<Hassenzahl2004>, form: "prose"), claims that it is a widely used term with .
+ISO 9241-11 also defines user experience as "user’s perceptions and responses that result from the use and/or anticipated use of a system, product or service" @international_organization_for_standardization_ergonomics_2018. However the term "anticipated use" requires clarification according to #cite(<law_understanding_2009>, form: "prose"). In 2004 #cite(<Hassenzahl2004>, form: "prose"), claims that it is a widely used term but there is no coherent understanding yet.
 
 // Compared to Usability which is clearly defined in ISO #highlight[_TODO_], User Experience is seen by many researchers as a not well defined term #highlight[TODO cite all the places I have seen this argument]
 === Websites
