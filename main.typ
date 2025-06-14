@@ -60,8 +60,11 @@
 + Ergebnisse
 + Schlussfolgerungen / Fazit & Ausblick / Desiderata
 
+
+
 #pagebreak()
 
+#counter(page).update(1)
 = Introduction
 
 The right to participate in society is at the core of every democratic society. As
@@ -109,15 +112,19 @@ ISO 9241-11 also defines user experience as "user’s perceptions and responses 
 To improve on the understanding of user experience #cite(<Hassenzahl2004>, form: "prose") proposes the x
 === Websites
 // This is how the web started @finkelstein_ubiquitous_nodate
-The American Heritage Dictionary @harpercollins_publishers_american_nodate-1 and Meriam-Webster Dictionary @meriam-webster_definition_2025 define a website as a set or group of interconnected web pages. Where web pages are static x
-The first appearance of the term website is dated back to 1993 @meriam-webster_definition_2025 @oxford_english_dictionary_website_nodate
+The American Heritage Dictionary @harpercollins_publishers_american_nodate-1 and Meriam-Webster Dictionary @meriam-webster_definition_2025 define a website as a set or group of interconnected web pages.
+The first appearance of the term website is dated back to 1993 @meriam-webster_definition_2025 @oxford_english_dictionary_website_nodate.\
+Web sites can either be static files loaded from a web server or 
 === Web Apps
-//TODO find supporting source for category thinking web applications
-Web apps are applications that are designed from the beginning to be run in web-based environments like a browser @finkelstein_ubiquitous_nodate.
-Web apps are a category of applications where app is an abbreviation for application @harpercollins_publishers_american_nodate. Thus both terms web app and web application can be used interchangeably. Web apps consist of HTML data displayed to the user and client-side scripts that power interactivity for users on their client. Additionally there can be scripts running on the server to perform processing and to store and retrieve data from databases @jazayeri_trends_2007. This definition of web apps focuses primarily on technical aspects like the technology used, how it is accessed 
+//TODO this might need citation
+As opposed to websites there is no definition for the term web app in the dictionary. This could be related to it being a relatively new term or a niche technical term that most people do not care about.\
+When thinking about the definition of web app it can be split up into the two terms of "web" and "app". Where "app" is defined as an abbreviation for "application" which describes a program running on a computer system @harpercollins_publishers_american_nodate. And "web" in web application can be understood as the distinct technological platform the an app is running on.\
+The definition for web applications in literature often hinges on this differentiation in the technology to define web apps. As seen in #cite(<jazayeri_trends_2007>, form: "prose") who define web apps as consisting of HTML data displayed to the user and client-side scripts that power interactivity for users on their client. Additionally there can be code running on the server to perform processing and to store and retrieve data from databases.\
+This is further backed up by #cite(<finkelstein_ubiquitous_nodate>, form: "prose") who define web apps as applications that are designed from the beginning to be run in web-based environments like a browser.
+This definition of web apps focuses primarily on technical aspects like the technology used to build web apps and how they are accessed. While these are an important part of 
 === Websites vs Web Apps
-Where the dictionary defines a website as a set of web pages @harpercollins_publishers_american_nodate @meriam-webster_definition_2025, #cite(<finkelstein_ubiquitous_nodate>, form: "prose") defines web apps as more than that. #cite(<finkelstein_ubiquitous_nodate>, form: "author") 
-The term website and and app are often used in literature but rarely defined. While the former can be found in the dictionary as a modern addition to the English language the latter does not yet appear in the dictionary and can not be written as a compound noun adding to the notion that it is not a widespread term.
+Both websites and web apps share the underlying technological platform of the web. However where the dictionary defines a website as a set of web pages @harpercollins_publishers_american_nodate @meriam-webster_definition_2025, #cite(<finkelstein_ubiquitous_nodate>, form: "prose") defines web apps as more than that. #cite(<finkelstein_ubiquitous_nodate>, form: "author") focuses on web apps being distinct from websites in that they have sessions and don't follow the request-response Web paradigm.
+//The term website and and app are often used in literature but rarely defined. While the former can be found in the dictionary as a modern addition to the English language the latter does not yet appear in the dictionary and can not be written as a compound noun adding to the notion that it is not a widespread term.
 === Etymology
 They both use the word web which is the underlying platform they are built on. A site however is similar to a site in a book which implies there are more and they are linked with each other and there is room to explore. Meanwhile an app which comes from application is more of an in itself closed concept. This also reflects in the technology. A PWA has one window in which the focus is kept and every interaction with the outside requires leaving the app. While a browser allows multiple tabs to be opened even of the same site. Another aspect in which this reflects is the usage mode. Sites allow more of an action mode usage while apps are more goal focused.
 ==== Goal mode vs action mode
