@@ -80,7 +80,7 @@ accessible. Since then, regulations have grown in scope with the European
 Accessibility Act (EAA) requiring private companies that provide public services to
 make their products accessible too starting in June 2025.
 
-Larger companies might have an advantage as they have more resources to make
+Larger companies might have an advantage in this as they have more resources to make
 their products accessible and have more users that can profit from it. For smaller
 companies this might increase the compliance burden as they are more resource
 constrained.
@@ -109,7 +109,13 @@ However the definition of usability focuses primarily on utilitarian aspects suc
 ISO 9241-11 also defines user experience as "user’s perceptions and responses that result from the use and/or anticipated use of a system, product or service" @international_organization_for_standardization_ergonomics_2018. However the term "anticipated use" requires clarification according to #cite(<law_understanding_2009>, form: "prose"). This aligns with #cite(<Hassenzahl2004>, form: "prose") who claims that it is a widely used term but there is no coherent understanding yet.
 
 === Hedonistic Pragmatic Model
-To improve on the understanding of user experience #cite(<Hassenzahl2004>, form: "prose") proposes the x
+To improve on the understanding of user experience #cite(<Hassenzahl2004>, form: "prose") proposes the hedonic pragmatic model of user experience.
+// According to this model a product has features that are chosen by designers to create the 
+This model differentiates between the intended and the apparent product character. The character is the high-level summary of a product's attributes e.g. novel, interesting, useful and predictable. Its purpose is to reduce cognitive complexity and nudge users to use the product in a certain way. Product designers convey the intended product character by applying product features like content, presentation style and functionality and interaction style @Hassenzahl2004.
+
+In a web application or website for example a product designer can be a web developer writing the application code or a UI/UX designer creating page designs. They would write HTML to serve the content, use CSS for the presentation style and functionality and interaction style with JavaScript.
+
+The apparent product character is created through users perceiving and interacting with the product. Through that every user builds a different personal interpretation of the apparent product character which consists of groups of hedonic and pragmatic attributes. 
 === Websites
 // This is how the web started @finkelstein_ubiquitous_nodate
 The American Heritage Dictionary @harpercollins_publishers_american_nodate-1 and Meriam-Webster Dictionary @meriam-webster_definition_2025 define a website as a set or group of interconnected web pages.
@@ -117,9 +123,12 @@ The first appearance of the term website is dated back to 1993 @meriam-webster_d
 Web sites can either be static files loaded from a web server or 
 === Web Apps
 //TODO this might need citation
-As opposed to websites there is no definition for the term web app in the dictionary. This could be related to it being a relatively new term or a niche technical term that most people do not care about.\
-When thinking about the definition of web app it can be split up into the two terms of "web" and "app". Where "app" is defined as an abbreviation for "application" which describes a program running on a computer system @harpercollins_publishers_american_nodate. And "web" in web application can be understood as the distinct technological platform the an app is running on.\
-The definition for web applications in literature often hinges on this differentiation in the technology to define web apps. As seen in #cite(<jazayeri_trends_2007>, form: "prose") who define web apps as consisting of HTML data displayed to the user and client-side scripts that power interactivity for users on their client. Additionally there can be code running on the server to perform processing and to store and retrieve data from databases.\
+As opposed to websites there is no definition for the term web app in the dictionary. This could be related to it being a relatively new term or a niche technical term that most people do not care about.
+
+When thinking about the definition of web app it can be split up into the two terms of "web" and "app". Where "app" is defined as an abbreviation for "application" which describes a program running on a computer system @harpercollins_publishers_american_nodate. And "web" in web application can be understood as the distinct technological platform the an app is running on.
+
+The definition for web applications in literature often hinges on this differentiation in the technology to define web apps. As seen in #cite(<jazayeri_trends_2007>, form: "prose") who define web apps as consisting of HTML data displayed to the user and client-side scripts that power interactivity for users on their client. Additionally there can be code running on the server to perform processing and to store and retrieve data from databases.
+
 This is further backed up by #cite(<finkelstein_ubiquitous_nodate>, form: "prose") who define web apps as applications that are designed from the beginning to be run in web-based environments like a browser.
 This definition of web apps focuses primarily on technical aspects like the technology used to build web apps and how they are accessed. While these are an important part of 
 === Websites vs Web Apps
