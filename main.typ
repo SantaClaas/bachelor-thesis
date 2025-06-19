@@ -101,21 +101,26 @@ compliance with the EAA.
 #pagebreak()
 = Relevance
 == Fundamental Research and Theories
-=== Usability
+=== Usability <usability>
 ISO 9241-11 @international_organization_for_standardization_ergonomics_2018 defines usability as "the extend to which a system, product or service can be used by specified users to achieve
 specified goals with effectiveness, efficiency and satisfaction in a specified context of use". Where product refers to a website or web app. This definition is widely adopted and appears in many papers in the Human Computer Interaction space such as #cite(<hassenzahl_interplay_2004>, form: "prose"), #cite(<petrie_relationship_2007>, form: "prose"), #cite(<aizpurua_exploring_2016>, form: "prose").
 However the definition of usability focuses primarily on utilitarian aspects such as user cognition and performance @law_understanding_2009.
 === User Experience
 ISO 9241-11 also defines user experience as "user’s perceptions and responses that result from the use and/or anticipated use of a system, product or service" @international_organization_for_standardization_ergonomics_2018. However the term "anticipated use" requires clarification according to #cite(<law_understanding_2009>, form: "prose"). This aligns with #cite(<Hassenzahl2004>, form: "prose") who claims that it is a widely used term but there is no coherent understanding yet.
 
+#pagebreak()
 === Hedonistic Pragmatic Model
 To improve on the understanding of user experience #cite(<Hassenzahl2004>, form: "prose") proposes the hedonic pragmatic model of user experience.
 // According to this model a product has features that are chosen by designers to create the 
-This model differentiates between the intended and the apparent product character. The character is the high-level summary of a product's attributes e.g. novel, interesting, useful and predictable. Its purpose is to reduce cognitive complexity and nudge users to use the product in a certain way. Product designers convey the intended product character by applying product features like content, presentation style and functionality and interaction style @Hassenzahl2004.
+This model differentiates between the intended and the apparent product character. The character is the high-level summary of a product's attributes e.g. novel, interesting, useful and predictable. Its purpose is to reduce cognitive complexity and nudge users to use the product in a certain way. Product designers "fabricate" the intended product character by applying product features like content, presentation style and functionality and interaction style @Hassenzahl2004.
 
 In a web application or website for example a product designer can be a web developer writing the application code or a UI/UX designer creating page designs. They would write HTML to serve the content, use CSS for the presentation style and functionality and interaction style with JavaScript.
 
-The apparent product character is created through users perceiving and interacting with the product. Through that every user builds a different personal interpretation of the apparent product character which consists of groups of hedonic and pragmatic attributes. 
+The apparent product character is constructed through users perceiving and interacting with the product. Through that every user builds a different personal interpretation of the apparent product character which consists of groups of hedonic and pragmatic attributes. This process will always take place, no matter how little information a user has about a product. Combined with the users current situation the apparent product character leads to consequences such as behavior, emotional reactions and judgement about the momentary appealingness of the product. The apparent product character can also change within a person for example due to gathered experience with the product or it losing its novelty @Hassenzahl2004.
+
+The attributes of a product's character can be divided into multiple attributes that fall into the groups of pragmatic and hedonic. Pragmatic attributes allow a user to manipulate their environment. They are used to fulfill internally or externally given behavioral goals and cover the aspects of #link(<usability>, [usability]).
+
+Hedonic attributes on the other hand emphasize users' psychological well-being.
 === Websites
 // This is how the web started @finkelstein_ubiquitous_nodate
 The American Heritage Dictionary @harpercollins_publishers_american_nodate-1 and Meriam-Webster Dictionary @meriam-webster_definition_2025 define a website as a set or group of interconnected web pages.
